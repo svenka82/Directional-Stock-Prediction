@@ -75,21 +75,3 @@ mlp.fit(X_train, y_train)
 y_pred = mlp.predict(X_test)
 cm = confusion_matrix(y_test, y_pred)
 print((cm[0, 0] + cm[1, 1]) / (cm[0, 0] + cm[1, 1] + cm[1, 0] + cm[0, 1]))
-
-x = [100, 200, 500, 1000, 2000]
-y = [71.1, 71.7, 72.3, 73.08, 75.1]
-plt.plot(x, y)
-plt.plot(x, y, 'r+')
-plt.xlabel('#Trees')
-plt.ylabel('Accuracy')
-plt.title('Random Forest:Accuracy vs #Trees')
-plt.savefig('RF.png')
-
-x1 = [1, 2, 3, 4]
-y1 = [70.03, 71.4, 73.7, 75.7]
-plt.plot(x1, y1)
-plt.plot(x1, y1, 'r+')
-plt.xlabel('#Hidden Layers')
-plt.ylabel('Accuracy')
-plt.title('MLP:Accuracy vs #Hidden Layers')
-plt.savefig('MLP.png')
