@@ -1,0 +1,6 @@
+{
+	"id": tweet Id in int,
+	"text": tweet contain in str,
+	"time": UTC epoch time in float,
+	"sentiment": setiment of the tweet in str
+}
