@@ -52,8 +52,8 @@ RUN INSTRUCTIONS:
 
 1. python3 and pip need to be present in the system.
 
-2. Use our starter_prg.py to install required libraries(like sklearn, vader sentiment, etc) and run our model.
-   python starter_prg.py
+2. Use our starter_prg.py (Under Code folder) to install required libraries(like sklearn, vader sentiment, etc) and run our      model.
+            python starter_prg.py
 3. Accuracy results will be displayed in the console.
 ------------------------------------------------------------------------------------------------------------------------------
     
