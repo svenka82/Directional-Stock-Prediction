@@ -3,11 +3,10 @@ CSE 573 Group Project
 
 The repository contains 3 main folders:
 
-1. CODE - Contains all the code files: 
-
-  a. Contains data scraper code 
-  b. Contains directional model code for 1day window
-  c. Contains directional model code for 4hr window
+1. CODE - Contains all the code files -  
+  1. Contains data scraper code 
+  2. Contains directional model code for 1day window
+  3. Contains directional model code for 4hr window
 
   To run the above code, just run like any other python file. 
     python <file_name.py>
