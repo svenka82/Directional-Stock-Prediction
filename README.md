@@ -8,8 +8,7 @@ CODE - Contains all the code files -
   2. Contains directional model code for 1day window
   3. Contains directional model code for 4hr window
 
-  To run the above code, just run like any other python file. 
-    python <file_name.py>
+  To run the above code, just run like any other python file ------ python <file_name.py>
 
 DATA - Contains all the data for the model. Please unzip AAPL.zip and AMZN.zip, contains all the tweets from [2014-2019]
 
