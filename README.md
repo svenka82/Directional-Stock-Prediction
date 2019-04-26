@@ -5,7 +5,7 @@ The repository contains 3 main folders:
 
 1. CODE - Contains all the code files.
   a. Contains data scraper code 
-  b. Contains directional model code for 1 day window
+  b. Contains directional model code for 1day window
   c. Contains directional model code for 4hr window
 
   To run the above code, just run like any other python file. 
@@ -18,15 +18,16 @@ The repository contains 3 main folders:
 
 
 DIRECTIONAL MODEL:
-We have built 2 models dpending on window size.
+
+We have built 2 models depending on window size.
 1.  1-Day window
 2.  4-Hr Window
 
 For 1-day window model, we take tweets of the previous day, compute the sentiment scores using VADER algorithm and then use the output of VADER as features for our model.
 
 Feature Matrix:
-Independent Variables : [pos_score,neg_score,neu_score,compund_score]
-Dependent Variables : Class Label [1/0]
+Independent Variables: [pos_score,neg_score,neu_score,compund_score]
+Dependent Variables: Class Label [1/0]
 
 We use the historical data which contains daily and 4hr prices. We label the data accordingly; 
 if close_price >= open_price
@@ -40,4 +41,4 @@ We have built three models:
 3.  MLP
 
 Results: 
-  After cross validation, we achieved an accuracy of around ~73% 
+  After cross validation, we achieved an accuracy of around ~73%
