@@ -3,7 +3,8 @@ CSE 573 Group Project
 
 The repository contains 3 main folders:
 
-1. CODE - Contains all the code files.
+1. CODE - Contains all the code files
+  
   a. Contains data scraper code 
   b. Contains directional model code for 1day window
   c. Contains directional model code for 4hr window
