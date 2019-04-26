@@ -16,7 +16,7 @@ The repository contains 3 main folders:
 
 3. EVALUATIONS - Contains images showing graphs of models results.
 
-
+------------------------------------------------------------------------------------------------------------------------------
 DIRECTIONAL MODEL:
 
 We have built 2 models depending on window size.
