@@ -40,3 +40,20 @@ We have built three models:
 
 Results: 
   After cross validation, we achieved an accuracy of around ~73%
+  
+------------------------------------------------------------------------------------------------------------------------------
+
+SCRAPER:
+
+We have two kinds of scrapers which face to two different sources, Nasdaq website and StockTwits. For the Nasdaq news scraper, you can specify the stock symbol and the most recent date, and the scraper will scrap foward to the past until there is no news. For the StockTwits scraper, you use the tweet ID of the most recent tweets and the stock symbol that you want to scrape. And the scraper will use RESTful API to fetch older tweets until the date that you specified.
+
+------------------------------------------------------------------------------------------------------------------------------
+RUN INSTRUCTIONS:
+
+1. python3 and pip need to be present in the system.
+
+2. Use our starter_prg.py to install required libraries(like sklearn, vader sentiment, etc) and run our model.
+   python starter_prg.py
+3. Accuracy results will be displayed in the console.
+------------------------------------------------------------------------------------------------------------------------------
+    
