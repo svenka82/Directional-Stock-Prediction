@@ -22,7 +22,7 @@ We have built 2 models depending on window size.
 1.  1-Day window
 2.  4-Hr Window
 
-For 1-day window model, we take tweets of the previous day, compute the sentiment scores using VADER algorithm and then use the output of VADER as features for our model.
+For 1-day window model, we take tweets of the previous day, compute the sentiment scores using VADER algorithm and then use the output of VADER as features for our model. We use the same strategy for 4hr window model.
 
 Feature Matrix:
 Independent Variables: [pos_score,neg_score,neu_score,compund_score]
